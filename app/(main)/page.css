@@ -1,0 +1,439 @@
+.page {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    border: 1px #d3d3d3 solid;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-color: #000000 !important;
+    border-style: none !important;
+    /* opacity: 0.5; */
+}
+
+.heightimagesignature {
+    height: 200% !important;
+}
+
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+@page {
+    size: A4;
+    margin-top: 25px;
+    margin-left: px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+.textarea {
+    /* border: none !important; */
+    border: 1px solid red; /*จะเอาขอบออก comment บรรทะดนี้ เปิดอันบน*/
+    overflow: auto !important;
+    outline: none !important;
+    overflow: hidden !important;
+    resize: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.textinput {
+    /* border: none !important; */
+    border: 1px solid green; /*จะเอาขอบออก comment บรรทะดนี้*/
+    overflow: auto !important;
+    outline: none !important;
+    border-radius: 0%;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+a {
+    color: #000000 !important;
+}
+/* a{
+    color:#000000 !important;
+} */
+
+/* For desktop: */
+.col-4p {
+    width: 4% !important;
+    padding: 0rem !important;
+}
+.col-5p {
+    width: 5% !important;
+    padding: 0rem !important;
+}
+.col-10p {
+    width: 10% !important;
+    padding: 0rem !important;
+}
+.col-12p {
+    width: 12% !important;
+    padding: 0rem !important;
+}
+.col-13p {
+    width: 13% !important;
+    padding: 0rem !important;
+}
+.col-15p {
+    width: 15% !important;
+    padding: 0rem !important;
+}
+.col-16p {
+    width: 16% !important;
+    padding: 0rem !important;
+}
+.col-17p {
+    width: 17% !important;
+    padding: 0rem !important;
+}
+
+.col-30p {
+    width: 68% !important;
+    padding: 0rem !important;
+}
+.col-20p {
+    width: 20% !important;
+    padding: 0rem !important;
+}
+.col-60p {
+    width: 60% !important;
+    padding: 0rem !important;
+}
+.col-35p {
+    width: 35% !important;
+    padding: 0rem !important;
+}
+.col-38p {
+    width: 38% !important;
+    padding: 0rem !important;
+}
+.col-40p {
+    width: 40% !important;
+    padding: 0rem !important;
+}
+.col-45p {
+    width: 45% !important;
+    padding: 0rem !important;
+}
+.col-54p {
+    width: 54% !important;
+    padding: 0rem !important;
+}
+
+.col-date_now {
+    width: 25% !important;
+    padding: 0rem !important;
+}
+.col-1 {
+    width: 8.33% !important;
+    padding: 0rem !important;
+}
+.col-2 {
+    width: 16.66% !important;
+    padding: 0rem !important;
+}
+.col-3 {
+    width: 25% !important;
+    padding: 0rem !important;
+}
+.col-4 {
+    width: 33.33% !important;
+    padding: 0rem !important;
+}
+.col-5 {
+    width: 41.66% !important;
+    padding: 0rem !important;
+}
+.col-6 {
+    width: 50% !important;
+    padding: 0rem !important;
+}
+.col-7 {
+    width: 58.33% !important;
+    padding: 0rem !important;
+}
+.col-8 {
+    width: 66.66% !important;
+    padding: 0rem !important;
+}
+.col-9 {
+    width: 75% !important;
+    padding: 0rem !important;
+}
+.col-10 {
+    width: 83.33% !important;
+    padding: 0rem !important;
+}
+.col-11 {
+    width: 91.66% !important;
+    padding: 0rem !important;
+}
+.col-12 {
+    width: 100% !important;
+    padding: 0rem !important;
+}
+.test {
+    display: flex !important;
+    /* padding: 0.5rem !important; */
+}
+
+.sig12 {
+    width: 100% !important;
+    padding: 0rem !important;
+}
+.sig-mobile {
+    width: 100% !important;
+    padding: 0rem !important;
+}
+
+.test-12 {
+    width: 100% !important;
+    padding: 0rem !important;
+}
+.border_date_now {
+    border-left: 1px solid !important;
+}
+.border_header_signature {
+    border-top: 0px solid !important;
+}
+
+/* MOBILE */
+.flex-mobile {
+    display: flex;
+}
+.dis-flex-column {
+    flex-direction: column !important;
+}
+.mobile-2 {
+    width: 16.66% !important;
+    padding: 0rem !important;
+}
+.mobile-10 {
+    width: 83.33% !important;
+    padding: 0rem !important;
+}
+.col4-mobile {
+    width: 33.33% !important;
+    padding: 0rem !important;
+}
+.col-6-div-item {
+    width: 40% !important;
+    padding: 0rem !important;
+}
+.col6-mobile {
+    width: 50% !important;
+    padding: 0rem !important;
+}
+.col-3-item {
+    width: 64% !important;
+    padding: 0rem !important;
+}
+
+.col-3-item-data {
+    width: 48% !important;
+    padding: 0rem !important;
+}
+.col-3-item-max {
+    width: 16% !important;
+    padding: 0rem !important;
+}
+
+.col-2-score {
+    width: 36% !important;
+    padding: 0rem !important;
+}
+.col-2-score-value {
+    width: 18% !important;
+    padding: 0rem !important;
+}
+.col-item-mobile {
+    width: 44% !important;
+    padding: 0rem !important;
+}
+.padding-set {
+    padding-bottom: 19px;
+}
+.padding-check {
+    padding-left: 40px !important;
+}
+.col-check {
+    width: 27% !important;
+    padding: 0rem !important;
+}
+.col-total {
+    width: 39% !important;
+    padding: 0rem !important;
+}
+.padding-sig {
+    padding-top: 21px !important;
+}
+.border-left-web {
+    border-left: 1px solid !important;
+}
+.col-title {
+    width: 25% !important;
+    padding: 0rem !important;
+    padding-right: 2px !important;
+}
+.col-title-input {
+    width: 90% !important;
+    padding: 0rem !important;
+}
+@media only screen and (max-width: 768px) {
+    .padding-head {
+        padding-top: 50px !important;
+    }
+
+    /* For mobile phones: */
+    .responsive-critera {
+        display: none !important;
+    }
+    [class*='col-'] {
+        width: 100% !important;
+        border-right: 0px !important;
+        /* padding: 2px !important; */
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .border-left-web {
+        border-left: 0px solid !important;
+    }
+    .padding-sig {
+        padding-top: 0px !important;
+    }
+    .test {
+        display: block !important;
+        /* padding: 0.5rem !important; */
+    }
+    .border-left-mobile {
+        border-left: 1px solid;
+    }
+    .border-bottom-mobile {
+        border-bottom: 1px solid !important;
+    }
+    .padding_division {
+        padding-bottom: 28px !important;
+    }
+    .padding_head {
+        padding-top: 28px !important;
+    }
+
+    .border_date_now {
+        border-left: 0px solid !important;
+    }
+    .border_header_signature {
+        border-top: 1px solid !important;
+    }
+    .border-right-mobile {
+        border-right: 1px solid !important;
+    }
+    .disnone {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        /* display: none; */
+    }
+    /* signature mobile ผู้เสนอ หัวหน้างาน จัดการ
+    */
+    .col4-mobile {
+        width: 33.33% !important;
+        padding: 0rem !important;
+    }
+    .sig12 {
+        width: 33.33% !important;
+        padding: 0rem !important;
+    }
+    .sig-mobile {
+        width: 33.33% !important;
+        padding: 0rem !important;
+    }
+    .dis-flex-column {
+        flex-direction: row !important;
+    }
+    .col-3-item {
+        width: 70% !important;
+        padding: 0rem !important;
+    }
+
+    .col-3-item-data {
+        width: 60% !important;
+        padding: 0rem !important;
+    }
+    .col-3-item-max {
+        width: 10% !important;
+        padding: 0rem !important;
+    }
+
+    .col-2-score {
+        width: 30% !important;
+        padding: 0rem !important;
+    }
+    .col-2-score-value {
+        width: 15% !important;
+        padding: 0rem !important;
+    }
+    .col-title {
+        width: 15% !important;
+        padding: 0rem !important;
+    }
+
+    .col-title-input {
+        width: 85% !important;
+        padding: 0rem !important;
+    }
+    .responsive-critera:nth-child(1) .col-20p {
+        background-color: red !important;
+    }
+    /* signature mobile ผู้เสนอ หัวหน้างาน จัดการ
+    */
+}
+@media only screen and (max-width: 900px) {
+    .padding-head {
+        padding-top: 50px !important;
+    }
+}
+@media print {
+    .editor {
+        display: none !important;
+    }
+    .textarea {
+        border: none !important;
+        overflow: auto !important;
+        outline: none !important;
+        resize: none;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    .textinput {
+        border: none !important;
+        overflow: auto !important;
+        outline: none !important;
+        background-color: transparent !important;
+        /* border: 0.5px solid green !important;
+      border-radius: 0%; */
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+    .menuBar {
+        display: none !important;
+    }
+    .page {
+        padding: 0;
+        font-size: 2px;
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        /* width: initial; */
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}

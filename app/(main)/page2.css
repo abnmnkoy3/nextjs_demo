@@ -1,0 +1,35 @@
+.layout-main {
+    justify-content: start !important;
+}
+.flex-column-new {
+    flex-direction: column !important;
+}
+.flex-between-new {
+    justify-content: space-between !important;
+}
+/* .flex-new {
+    display: flex !important;
+} */
+.col-6-news {
+    width: 50% !important;
+    padding: 0rem !important;
+}
+
+.col-12-news {
+    flex: 0 0 auto;
+    /* padding: 0.5rem; */
+    width: 100%;
+}
+
+.badgeset {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    /* line-height: 20px; */
+    line-height: 12px !important;
+    background-color: red;
+    color: white;
+    z-index: 1;
+}
